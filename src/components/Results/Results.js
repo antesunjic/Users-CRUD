@@ -5,7 +5,7 @@ import UserCard from "./UserCard/UserCard.js";
 
 import "./Results.css";
 import EditUser from "../EditUser/EditUser.js";
-import Modal from "../Modal/Modal.js";
+import Modal from "../UI/Modal/Modal";
 import { SearchContext } from "../../context/SearchContext.js";
 
 import { css } from "@emotion/react";
@@ -32,7 +32,6 @@ const Results = () => {
   let [color] = useState("#ffffff");
 
   const [clickedId, setClickedId] = useState(null);
-
 
   const openModalHandler = (id) => {
     setEditingUser(true);

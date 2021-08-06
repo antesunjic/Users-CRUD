@@ -1,5 +1,5 @@
 import React from "react";
-import Backdrop from "../UI/Backdrop/Backdrop";
+import Backdrop from "../Backdrop/Backdrop";
 
 import "./Modal.css";
 
