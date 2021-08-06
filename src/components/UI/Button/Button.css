@@ -1,0 +1,71 @@
+:root {
+  --approve: green;
+  --edit: rgb(72, 117, 243);
+  --danger: rgb(209, 45, 45);
+  --dark: #363636;
+}
+
+.btn {
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border: none;
+  height: 25px;
+  width: 60px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn--approve {
+  background-color: var(--approve);
+  color: white;
+  border: none;
+  width: 100px;
+  height: 35px;
+}
+
+.btn--approve:disabled {
+  background-color: cadetblue;
+  color: rgb(65, 62, 62);
+}
+.btn--edit {
+  background-color: var(--edit);
+  color: white;
+  border: none;
+  font-size: 80%;
+}
+.btn--danger {
+  background-color: var(--danger);
+  color: white;
+  border: none;
+  font-size: 80%;
+  margin-top: 8px;
+}
+
+.btn--exit {
+  background-color: var(--danger);
+  color: white;
+  border: none;
+  font-size: 80%;
+  margin-top: 8px;
+  width: 35px;
+}
+
+.btn--dark {
+  background-color: var(--dark);
+  color: white;
+  height: 35px;
+  width: 70px;
+  border-radius: 0 8px 8px 0;
+}
+
+.btn--upload {
+  background-color: var(--dark);
+  color: white;
+  white-space: none;
+  height: 35px;
+  width: 100px;
+  margin-bottom: 20px;
+}

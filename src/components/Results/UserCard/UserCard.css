@@ -1,0 +1,45 @@
+table {
+  margin: 10px;
+  width: 50vw;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(172, 172, 172);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  text-align: center;
+}
+
+th {
+  height: 25px;
+}
+td {
+  height: 50px;
+}
+
+.small {
+  /* width: 15%; */
+}
+
+.middle {
+  width: 15%;
+}
+
+.large {
+  width: 40%;
+}
+
+.smallButtons {
+  display: flex;
+  border: none;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12px;
+}
