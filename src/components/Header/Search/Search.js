@@ -6,7 +6,6 @@ import Input from "../../UI/Input/Input";
 
 const Search = () => {
   const users = useSelector((state) => state.usersReducer.users);
-
   const { enteredFilter, setFilteredUsers, setEnteredFilter } =
     useContext(SearchContext);
 
